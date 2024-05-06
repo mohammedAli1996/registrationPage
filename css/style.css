@@ -1415,7 +1415,7 @@ section.no-bg,
 }
 
 .de-gradient-edge-bottom {
-    z-index: 1;
+    z-index: -1;
     position: absolute;
     bottom: 0;
     width: 100%;
