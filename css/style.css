@@ -18116,8 +18116,16 @@ img {
 /* -------------------------------------------------- 
     custom for 320px & 480px 
     /* -------------------------------------------------- */
+    .no-mob{
+        display: inline-block;
+    }
 
 @media only screen and (max-width: 767px) {
+
+
+    .no-mob{
+        display: none;
+    }
 
     .h1,
     h1.big,
@@ -18689,3 +18697,4 @@ img {
 	from {bottom: 30px; opacity: 1;}
 	to {bottom: 0; opacity: 0;}
   }
+
